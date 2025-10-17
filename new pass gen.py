@@ -20,7 +20,7 @@ def generate_password(length):
 def main():
     while True:
         try:
-            length_input = input("Enter desired password length (or 'exit' to quit): ").strip()
+            length_input = input("Enter desired password length (or 'Exit' to quit): ").strip()
             if length_input.lower() == 'exit':
                 print("Thank you for using the Password Generator. Stay safe!")
                 break
